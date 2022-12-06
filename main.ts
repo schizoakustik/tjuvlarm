@@ -20,6 +20,7 @@ function insertCode () {
 input.onButtonPressed(Button.AB, function () {
     basic.pause(200)
     if (insertCode() == 0) {
+        tries = 0
         basic.showIcon(IconNames.Yes)
         if (!(larmat)) {
             countDown(5)
